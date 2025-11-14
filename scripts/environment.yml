@@ -1,0 +1,11 @@
+name: elsascrum
+channels:
+  - defaults
+dependencies:
+  - python=3.10.10 # Funkade inte att ha med '=h218abb5_2' för mig /Linus
+  - pip=23.0.1
+  - pip:
+      - numpy==1.24.2
+      - stanza==1.5.0
+      - sentence-transformers==2.2.2
+prefix: /Users/danieltufvesson/anaconda3/envs/elsascrum # Ändra till egen anaconda path.
